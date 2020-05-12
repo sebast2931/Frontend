@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+//import Form from './componets/actividad1';
+import "bootstrap/dist/css/bootstrap.min.css";
+//import ListP from './componets/actividad2';
+//import { render } from '@testing-library/react';
+import Router from './componets/Router'
+//import CustomizedTables from './componets/actividad3/table';
 
-function App() {
+
+
+const App = () =>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router/>
   );
 }
 
