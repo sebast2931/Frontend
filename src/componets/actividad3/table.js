@@ -34,9 +34,7 @@ const useStyles = makeStyles({
 });
 
 export default function CustomizedTables(props) {
-    console.log(props);
-    
-    // const table =({data}) =>
+   
   const classes = useStyles();
 
   const { data } = props;

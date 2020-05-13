@@ -15,7 +15,7 @@ const Acti = () => {
    
  return(
  <>
- <Table/>
+ {/* <Table/> */}
  <Form formik ={formik}/>
 
  </>)

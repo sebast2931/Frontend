@@ -2,7 +2,7 @@ import React from 'react'
 
 const Table = ({data}) =>(
 
-<table className="table thead-dark">
+    <table className="table thead-dark">
       <thead className="thead-dark">
         <tr>
           <th scope="col">Id</th>
@@ -28,6 +28,8 @@ const Table = ({data}) =>(
         ))}
       </tbody>
     </table>
+
+ 
 );
 
 export default Table;

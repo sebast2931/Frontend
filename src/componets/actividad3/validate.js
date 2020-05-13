@@ -7,7 +7,7 @@ const initialValues ={
     descripcion: "",
     precioBase: "",
     inventario: "",
-    //estado: "",
+    estado: "",
     tasaImpuesto: "",
 }
 
