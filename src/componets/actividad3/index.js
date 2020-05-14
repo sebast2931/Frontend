@@ -14,6 +14,7 @@ const Acti = () => {
     const formik= stateImputs();
    
  return(
+    //http://localhost:3000/Actividad3
  <>
  <Table/>
  <Form formik ={formik}/>
